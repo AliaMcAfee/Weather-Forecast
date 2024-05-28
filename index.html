@@ -27,14 +27,20 @@
           <div>
             <h1 class="weather-city" id="city">Chicago</h1>
             <p class="weather-details">
-              Monday 6:00, scattered clouds
+              <span id="time"></span>,<span id="description"></span>
               <br />
-              Humidity: <strong>66%</strong>, Wind: <strong>3.13km.h</strong>
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="weather-container">
-            <div class="weather-icon">⛅</div>
-            <div class="weather-temp" id="temperature">75</div>
+            <div>
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-night.png"
+                class="weather-icon"
+              />
+            </div>
+            <div class="weather-temp" id="temperature"></div>
             <div class="weather-unit">&deg;C</div>
           </div>
         </div>
