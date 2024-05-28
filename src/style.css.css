@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(121, 178, 225);
+  background-color: #79b2e1;
   font-family: Arial, Helvetica, sans-serif;
 }
 .weekday-weather {
@@ -9,4 +9,21 @@ body {
   box-shadow: 0 25px 50px rgb(190, 183, 225);
   border-radius: 16px;
   padding: 30px;
+}
+
+.search-form-input {
+  background-color: #efefef;
+  border: 5px;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 15px;
+  padding: 15px 20px;
+}
+
+.search-button {
+  background: gray;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
 }
