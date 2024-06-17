@@ -104,7 +104,7 @@ main {
 }
 
 .weather-forecast-temperature {
-  font-size: 13px;
+  font-size: 18px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -113,7 +113,7 @@ main {
 }
 
 .temperature-min {
-  margin-left: 10px;
+  margin-left: 15px;
   opacity: 0.4;
 }
 
